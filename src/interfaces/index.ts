@@ -10,7 +10,7 @@ export enum TYPE_TECH {
     BECK_END = "back-end",
     TOOL = "tool",
     DATABASE = "database",
-    FRONT_END_RELATED = "front-end related",
+    PROGRAMMING_LANGUAGE = "programming language",
 }
 
 export interface Technical {
@@ -45,8 +45,12 @@ export type ListLiveProject = Array<LiveProject>;
 
 export interface Experience {
     nameCompany: string;
+    nameProject: string;
     teamSize: number;
+    /**rangeTiem: [start time, end time] */
+    rangeTime: [string, string];
     technicalUsed: string[];
+    description: string;
     tasks: string[];
 }
 export type ListExperience = Array<Experience>;
