@@ -26,7 +26,7 @@ export const myInformation: Information = {
     lastName: "Phan Hoai",
     address: "Bui Van Ba, District 7, Ho Chi Minh, Viet Nam",
     phoneNumber: "+84 946310531",
-    currentLevel: "Fresher",
+    currentLevel: "Fresher Front-End Developer",
 };
 
 export const mySocial: Social = {

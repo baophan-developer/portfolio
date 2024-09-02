@@ -60,5 +60,4 @@ export type Education = {
     major: string;
     rangeTime: [string, string];
 };
-
 export type ListEducation = Array<Education>;
