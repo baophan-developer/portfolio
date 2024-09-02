@@ -1,5 +1,11 @@
 import { Information, ListExperience, Social, Technical, TYPE_TECH } from "../interfaces";
 
+export const mySumary: string =
+    "I have one year of experience in developing websites within the finance and banking sector. My expertise includes using programming languages and related libraries such as React, Typescript, React Router Dom, React Hook Form and TanStack Query. With My experience, I am confident in my ability to contribute value and help develop high-quality products for the company.";
+
+export const myObjective: string =
+    "As a front-end developer, I want to provide the best user interface experience possible. I'll constantly try to improve myself and learn more to bring new things to the user experience and the core value of a front-end developer. I've had some experience working with dashboards in my career. I hope I can work with many different types of websites to learn more and bring more value to your business.";
+
 export const myInformation: Information = {
     firstName: "Bao",
     lastName: "Phan Hoai",
