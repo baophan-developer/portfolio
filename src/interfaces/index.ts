@@ -54,3 +54,11 @@ export interface Experience {
     tasks: string[];
 }
 export type ListExperience = Array<Experience>;
+
+export type Education = {
+    nameSchool: string;
+    major: string;
+    rangeTime: [string, string];
+};
+
+export type ListEducation = Array<Education>;

@@ -1,4 +1,19 @@
-import { Information, ListExperience, Social, Technical, TYPE_TECH } from "../interfaces";
+import {
+    Information,
+    ListEducation,
+    ListExperience,
+    Social,
+    Technical,
+    TYPE_TECH,
+} from "../interfaces";
+
+export const myEducation: ListEducation = [
+    {
+        nameSchool: "Can Tho University",
+        major: "Software - Engineering",
+        rangeTime: ["Sep 2019", "Dec 2023"],
+    },
+];
 
 export const mySumary: string =
     "I have one year of experience in developing websites within the finance and banking sector. My expertise includes using programming languages and related libraries such as React, Typescript, React Router Dom, React Hook Form and TanStack Query. With My experience, I am confident in my ability to contribute value and help develop high-quality products for the company.";
