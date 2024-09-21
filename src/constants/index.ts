@@ -1,5 +1,5 @@
 export enum NameLinkIds {
-    Homagpage = "Homagpage",
+    HomagPage = "HomagPage",
     Services = "Services",
     Portfolio = "Portfolio",
     Contact = "Contact",

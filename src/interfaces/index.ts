@@ -47,7 +47,7 @@ export interface Experience {
     nameCompany: string;
     nameProject: string;
     teamSize: number;
-    /**rangeTiem: [start time, end time] */
+    /**rangeTime: [start time, end time] */
     rangeTime: [string, string];
     technicalUsed: string[];
     description: string;

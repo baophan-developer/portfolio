@@ -103,7 +103,7 @@ const Hero = () => {
         };
     }, []);
 
-    const silderVariants: Variants = useMemo(() => {
+    const sliderVariants: Variants = useMemo(() => {
         return {
             initial: {
                 x: 0,
@@ -130,12 +130,16 @@ const Hero = () => {
                     <motion.h2 variants={textVariants}>
                         {firstName}, {lastName}
                     </motion.h2>
-                    <motion.h1 variants={textVariants}>{currentLevel}</motion.h1>
+                    <motion.h1 variants={textVariants}>
+                        {currentLevel}
+                    </motion.h1>
                     <ButtonList>
                         <motion.button variants={textVariants}>
                             See the Latest Works
                         </motion.button>
-                        <motion.button variants={textVariants}>Contact Me</motion.button>
+                        <motion.button variants={textVariants}>
+                            Contact Me
+                        </motion.button>
                     </ButtonList>
                     <motion.img
                         variants={textVariants}
@@ -146,7 +150,7 @@ const Hero = () => {
                 </TextContainer>
             </WrapperTextContainer>
             <SlidingTextContainer
-                variants={silderVariants}
+                variants={sliderVariants}
                 initial="initial"
                 animate="animate"
             >

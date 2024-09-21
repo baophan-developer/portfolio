@@ -15,7 +15,7 @@ export const myEducation: ListEducation = [
     },
 ];
 
-export const mySumary: string =
+export const mySummary: string =
     "I have one year of experience in developing websites within the finance and banking sector. My expertise includes using programming languages and related libraries such as React, Typescript, React Router Dom, React Hook Form and TanStack Query. With My experience, I am confident in my ability to contribute value and help develop high-quality products for the company.";
 
 export const myObjective: string =
@@ -26,7 +26,7 @@ export const myInformation: Information = {
     lastName: "Phan Hoai",
     address: "Bui Van Ba, District 7, Ho Chi Minh, Viet Nam",
     phoneNumber: "+84 946310531",
-    currentLevel: "Fresher Front-End Developer",
+    currentLevel: "Jr. Front-End Developer",
 };
 
 export const mySocial: Social = {
@@ -60,7 +60,7 @@ export const myFrontEnd: Technical = {
         "React Hook Form",
         "React Router Dom",
         "Ant Design",
-        "Meterial UI",
+        "Material UI",
         "Styled component",
     ],
 };
@@ -84,10 +84,10 @@ export const myExperience: ListExperience = [
         description:
             "This project is part of the company's programming training. The goal of the project is to provide user with interactive features on the website, such as viewing bookings on a calendar and checking room availability. Administrators are provided with features to manage user permissions and monitor the availability status of room.",
         tasks: [
-            "Be reponsible for developing the front end that allows user interaction.",
-            "Be reponsible for adding the pages login, register and forgot password.",
-            "Be reponsible for adding the pages management meeting room, user and rule of user.",
-            "Be reponsible for adding the page management booking room allows user book, view and cancel bookings.",
+            "Be responsible for developing the front end that allows user interaction.",
+            "Be responsible for adding the pages login, register and forgot password.",
+            "Be responsible for adding the pages management meeting room, user and rule of user.",
+            "Be responsible for adding the page management booking room allows user book, view and cancel bookings.",
         ],
     },
     {

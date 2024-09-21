@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React, { ButtonHTMLAttributes } from "react";
 import styled from "styled-components";
 
-export const Conatiner = styled.button`
+export const Container = styled.button`
     width: 50px;
     height: 50px;
     position: fixed;
@@ -58,9 +58,9 @@ export const Button = (props: ButtonProps) => {
     const { icon, children, ...rest } = props;
 
     return (
-        <Conatiner {...rest}>
+        <Container {...rest}>
             {icon ? icon : <IconDefault />}
             {children}
-        </Conatiner>
+        </Container>
     );
 };

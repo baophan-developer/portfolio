@@ -37,7 +37,7 @@ const Links = () => {
         };
     }, []);
 
-    const itemVarients: Variants = useMemo(() => {
+    const itemVariants: Variants = useMemo(() => {
         return {
             open: {
                 y: 0,
@@ -55,7 +55,7 @@ const Links = () => {
             {NameLinks.map((item) => {
                 return (
                     <Item
-                        variants={itemVarients}
+                        variants={itemVariants}
                         whileHover={{
                             scale: 1.1,
                         }}
